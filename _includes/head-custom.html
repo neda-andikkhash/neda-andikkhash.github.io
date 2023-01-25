@@ -12,7 +12,7 @@
 <script>
 function sendReadEvent(title, numberOfCharacters) {
     gtag('event', 'read_article', {
-        "author": "Linus R",
+        "author": "author",
         "title": title,
         "number_of_characters": numberOfCharacters,
     });
@@ -22,17 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Skickar event vid klick på artikel 1
     document.getElementById("read-article-1").addEventListener("click", () => {
-        sendReadEvent("Article 1", 50)
+        sendReadEvent("Article 1", 50, "Neda")
     });
 
     // Skickar event vid klick på artikel 2
     document.getElementById("read-article-2").addEventListener("click", () => {
-        sendReadEvent("Article 2", 100)
+        sendReadEvent("Article 2", 100, "Vida")
     });
 
     // Skickar event vid klick på artikel 3
     document.getElementById("read-article-3").addEventListener("click", () => {
-        sendReadEvent("Article 3", 150)
+        sendReadEvent("Article 3", 150, "Ililta")
     });
 
 });
