@@ -3,3 +3,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 [Read more](/read-more.md)
 
 [Read articles](/articles.md)
+
+[Thank you](/thank-you)
