@@ -7,3 +7,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 [Thank you](/thank-you)
 
 [Complete purchase](/purchase_complete)
+
+[Subscribe 50] (/subscribed.md)
+[Subscribe 250] (/subscribed.md)
+[Subscribe 500] (/subscribed.md)
