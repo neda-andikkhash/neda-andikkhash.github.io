@@ -9,11 +9,10 @@
 </script>
 
 <script>
-function sendReadEvent(title, numberOfCharacters, author) {
+function sendReadEvent(articleName, numberOfMinutes) {
     gtag('event', 'read_article', {
-        "author": "author",
-        "title": title,
-        "number_of_characters": numberOfCharacters,
+        "article_name": "articleName",
+        "number_of_minutes": numberOfMinutes,
     });
 }
 
@@ -21,17 +20,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Skickar event vid klick på artikel 1
     document.getElementById("read-article-1").addEventListener("click", () => {
-        sendReadEvent("Article 1", 50, "Neda")
+        sendReadEvent("Article 1", 5)
     });
 
     // Skickar event vid klick på artikel 2
     document.getElementById("read-article-2").addEventListener("click", () => {
-        sendReadEvent("Article 2", 100, "Vida")
+        sendReadEvent("Article 2", 12)
     });
 
     // Skickar event vid klick på artikel 3
     document.getElementById("read-article-3").addEventListener("click", () => {
-        sendReadEvent("Article 3", 150, "Ililta")
+        sendReadEvent("Article 3", 17)
     });
 
 });
