@@ -11,7 +11,7 @@
 <script>
 function sendReadEvent(articleName, numberOfMinutes) {
     gtag('event', 'article_read', {
-        "article_name": "articleName",
+        "article_name": articleName,
         "number_of_minutes": numberOfMinutes,
     });
 }
