@@ -15,4 +15,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <a href="/subscribed" data-subvalue="500">Subscribe 500</a>
 <br>
 
-[Inlämningsuppgift](/inlämningsuppgift)
+[Inlämningsuppgift](/artiklar)
